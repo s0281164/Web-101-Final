@@ -1,0 +1,370 @@
+* {box-sizing: border-box;}
+body {background-image: linear-gradient(to bottom, #dc6016, #8e4820);
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1vw;}
+#wrapper {margin: auto;
+          background-color: #ffba8f;
+          border: 2px solid #000000;
+          width: 90%;
+          min-width: 800px;
+          max-width: 1500px;
+          box-shadow: 3px 3px 3px #333333;
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-top: 1em;}
+#banner {background-image: url(banner2.jpg);
+         background-repeat: no-repeat;
+         height: 200px;
+         width: 100%;
+         border: 2px solid #8e4820;
+         border-radius: 30px;}
+
+nav {font-weight: bold; 
+     text-align: center; 
+     background-color: #641313; 
+     padding: 1em;
+border: 2px solid #8e4820;
+         border-radius: 20px;}
+nav a {text-decoration: none;
+       color: white;}
+
+header h1 {color: #ffffff; 
+           height: 120px;
+           text-align: right;
+           padding-right: 5em;
+           /
+           font-weight: bolder;}
+
+header h1 #journey  {font-size: .75em;
+                    }
+p.firstparagraph {color: #a85623;
+                 font-weight: 800;
+                 text-align: center;
+                 font-size: 2em;}
+p {color: #a85623;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.25em;
+  padding-left: 3em;
+  padding-right: 3em;}
+
+
+.column {float: left;
+         width: 50%;
+         padding: 1em;
+         padding-top: 1em;
+         display: block;}
+.row:after {clear: both;
+           display:block;}
+            
+.image1large {background-image: url(WebPhotos_Resized/RVC_Serenity.jpg);
+         height: 400px;
+         background-repeat: no-repeat;
+         border: 2px solid #8e4820;
+         border-radius: 30px;}
+.image5large {background-image: url(WebPhotos_Resized/RVC_SC.jpg);
+         height: 400px;
+         background-repeat: no-repeat;
+         border: 2px solid #8e4820;
+         border-radius: 30px;}
+        
+.image1small {background-image: url(WebPhotos_Half/RVC_Serenity_half.jpg);
+              background-repeat: no-repeat;
+              height: 200px;
+              width: 50%;
+              border: 2px solid #8e4820;
+              border-radius: 30px;}
+.image5small {background-image: url(WebPhotos_Half/RVC_SC_hal.jpg);
+              background-repeat: no-repeat;
+              height: 200px; 
+              width: 50%;
+              border: 2px solid #8e4820;
+              border-radius: 30px;}
+/*GraphicArts Photos*/
+
+.graphicarts1 {background-image: url(WebPhotos_Resized/GAT_01.jpg);
+               height: 400px;
+               background-repeat: no-repeat;
+               border: 2px solid #8e4820;
+               border-radius: 30px;}
+.graphicarts2 {background-image: url(WebPhotos_Resized/GAT_02.jpg);
+               height: 400px;
+               background-repeat: no-repeat;
+               border: 2px solid #8e4820;
+               border-radius: 30px;}
+.graphicarts1small {background-image: url(WebPhotos_Half/GAT_01_half.jpg);
+                    height: 200px;
+                    background-repeat: no-repeat;
+                    border: 2px solid #8e4820;
+                    border-radius: 30px;}
+.graphicarts2small {background-image: url(WebPhotos_Half/GAT_02_half.jpg);
+                    height: 200px;
+                    background-repeat: no-repeat;
+                    border: 2px solid #8e4820;
+                    border-radius: 30px;}
+
+/*MassComm Photos*/
+.masscomm1 {background-image: url(WebPhotos_Resized/COM_01.jpg);
+           height: 400px;
+           background-repeat: no-repeat;
+           border: 2px solid #8e4820;
+           border-radius: 30px;}
+.masscomm2 {background-image: url(WebPhotos_Resized/COM_02.jpg);
+           height: 400px;
+           background-repeat: no-repeat;
+           border: 2px solid #8e4820;
+           border-radius: 30px;}
+.masscomm1small {background-image: url(WebPhotos_Half/COM_01_half.jpg);
+                    height: 200px;
+                    background-repeat: no-repeat;
+                    border: 2px solid #8e4820;
+                    border-radius: 30px;}
+.masscomm2small {background-image: url(WebPhotos_Half/COM_02_half.jpg);
+                    height: 200px;
+                    background-repeat: no-repeat;
+                    border: 2px solid #8e4820;
+                    border-radius: 30px;}
+
+figcaption {color: #a85623;
+            font-size: 1vw;}
+
+
+h3 {color: #a85623;
+    font-weight: bolder;
+    text-decoration: underline;}
+.p1testimonial {color: #a85623;}
+.p2testimonial {color: #a85623;}
+h1.gallery, h1.graphicarts, h1.masscomm {background-color: #dc6016; 
+                                         text-align: right;
+                                         padding-right: 2em;}
+
+#gallery {height: 600px;
+          position:relative;}
+figure.placeholder {position: absolute;
+        left: 280px; 
+        text-align: center; 
+        opacity: .25;}
+#gallery {height: 500px;
+          position: relative}
+#gallery ul {list-style-type: none;
+             width: 300px;}
+#gallery li {display: inline; 
+             float: left;
+	         padding: 10px;}
+#gallery img {border-style: none;}
+#gallery a {text-decoration: none;
+            font-style: italic;  
+            color: #eaeaea;}
+#gallery span {position: absolute;
+               left: -1000px;
+               opacity: 0;
+               transition:  opacity 1s ease-in-out;}
+#gallery a:hover span {position: absolute;
+			           top: 16px;
+			           left: 320px; 
+			           text-align: center; 
+                       opacity: 1;}
+
+.gat03 {background-image: url(WebPhotos_Half/GAT_03_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.gat04 {background-image: url(WebPhotos_Half/GAT_04_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.gat05 {background-image: url(WebPhotos_Half/GAT_05_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.gat06 {background-image: url(WebPhotos_Half/GAT_06_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.gat07 {background-image: url(WebPhotos_Half/GAT_07_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.com03  {background-image: url(WebPhotos_Half/COM_03_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.com04  {background-image: url(WebPhotos_Half/COM_04_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.com05  {background-image: url(WebPhotos_Half/COM_05_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.com06  {background-image: url(WebPhotos_Half/COM_06_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+.com07  {background-image: url(WebPhotos_Half/COM_07_half.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        border: 2px solid #8e4820;
+        border-radius: 30px;}
+
+
+.columngraphic {float: left;
+         width: 50%;
+         padding: 1em;
+         padding-top: 1em;
+         display: block;}
+.rowgraphic:after {clear: both;
+           display:block;}
+
+
+
+table {border: solid 2px #8e4820;
+       width: 600px;
+       border-collapse: collapse;
+       margin: auto;}
+td {text-align: center;}
+.text {text-align: left;}
+tr:nth-of-type(odd) {background-color: #ffa269;}
+tr:nth-of-type(even) {background-color: #f2c5a9;}
+.scroll {text-decoration: none;
+         text-align: right;
+         color: darkred;
+         margin: 1em;}
+footer {color: #641313}
+/*----------------------------------------------*/
+
+div.image1small {display: none;}
+div.image5small {display: none;}
+div#bannersmall {display: none;}
+div.graphicarts1small {display: none;}
+div.graphicarts2small {display: none;}
+div.masscomm1small {display: none;}
+div.masscomm2small {display: none;}
+.gallerysmall {display: none;}
+.gat03 {display: none;}
+.gat04 {display: none;}
+.gat05 {display: none;}
+.gat06 {display: none;}
+.gat07 {display: none;}
+.com03 {display: none;}
+.com04 {display: none;}
+.com05 {display: none;}
+.com06 {display: none;}
+.com07 {display: none;}
+/*--------------------------------------*/
+
+@media only screen and (max-width: 64em) {
+#wrapper {min-width: 0;
+          width: auto;
+          margin-bottom: 0;
+          padding: 0;}
+    nav li{display: block;}
+nav a {display: block;
+       padding: 0.5em 0;
+       border-bottom: 2px ridge #ffa269;
+       text-align: center;
+       margin-left: 4em}
+    #gallery {display: none;}
+.gat03 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.gat04 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.gat05 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.gat06 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.gat07 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.com03 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.com04 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.com05 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.com06 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+.com07 {display: inline-block; border: 0;border-radius: 0; width: 100%;}
+   
+    
+}
+
+@media only screen and (max-width: 37.5em)  {
+    header h1 {text-align: right;
+               padding-right: .5em;
+               font-size: 175%}
+header h1 #journey  {font-size: .75em;
+                    text-align: right;
+                    padding: .1em;}
+body {font-size: .75em;}
+nav, nav ul, nav li {padding: 0;
+                     width: 100%}
+nav li{display: block;}
+nav a {display: block;
+       padding: 0.5em 0;
+       border-bottom: 2px ridge #ffa269;
+       text-align: center;
+       margin-left: 4em}
+    
+
+main {padding-top: .1em;
+          padding-bottom: .1em;
+          padding-left: 1em;
+          padding-right: 1em;
+          font-size: 90%;}
+#wrapper {min-width: 0;
+          width: auto;
+          margin-bottom: 0;
+          padding: 0;}
+p.firstparagraph {font-size: 1em;
+                  text-align: left;}
+    
+figure.image1large {display: inline;}
+figure.image5large {display: inline;}
+figcaption{display: none;}  
+/*
+div.image1small {display: block;}
+div.image5small {display: block;}
+    
+*/
+.graphicarts1 {display: none;} 
+.graphicarts2 {display: none;}    
+ div.graphicarts1small {display: block;
+                        border: 0;
+                        border-radius: 0;}
+div.graphicarts2small {display: block;
+                        border: 0;
+                        border-radius: 0;}    
+
+.masscomm1 {display: none;} 
+.masscomm2 {display: none;}    
+div.masscomm1small {display: block;
+                    width: auto;
+                    border: 0;
+                    border-radius: 0;}
+div.masscomm2small {display: block;
+                    border: 0;
+                    border-radius: 0;}   
+    
+.column {width: 100%}
+nav, nav ul, nav li {padding: 0;
+                     width: 100%}
+nav li{display: block;}
+nav a {display: block;
+       padding: 0.5em 0;
+       border-bottom: 2px ridge #ffa269;
+       text-align: center;}
+#gallery {display: none;}
+.gat03 {display: block;}
+.gat04 {display: block;}
+.gat05 {display: block;}
+.gat06 {display: block;}
+.gat07 {display: block;}
+.com03 {display: block;}
+.com04 {display: block;}
+.com05 {display: block;}
+.com06 {display: block;}
+.com07 {display: block;}
+    
+table {width: auto;}
+
+}
